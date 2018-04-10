@@ -3,22 +3,34 @@
         <h1>FIRST DAYS OF SPRING</h1>
         <div class="container">
             <div class="mx-auto row flower">
-                <figure class="col-sm-6 col-md-4 col-lg-3 text-center" v-for="image in images">
+                <figure @click="showImage(image)" class="col-sm-6 col-md-4 col-lg-3 text-center" v-for="image in images">
                     <img class="img-fluid img-thumbnail center-block" :src="image.src">
                     <p>{{image.title}}</p>
                 </figure>
+                <single-image :selectedImage="selectedImage" :isOpen="isOpen"></single-image>
             </div>
         </div>
     </div>
 </template>
 
 <script>
+    import SingleImage from '../components/SingleImage.vue'
     import style from '../assets/css/style.css'
 
     export default {
         name: 'gallery',
+        components: {SingleImage},
+        methods: {
+            showImage: function (image) {
+                console.log("showImage", image)
+                this.selectedImage = image
+                this.isOpen = true
+            }
+        },
         data () {
             return {
+                selectedImage: '',
+                isOpen: false,
                 images: [
                     {id:1, title: 'Img1', src: require("../assets/img/img2.jpg")},
                     {id:2, title: 'Img2', src: require("../assets/img/img3.jpg")},
@@ -33,4 +45,3 @@
         }
     }
 </script>
-

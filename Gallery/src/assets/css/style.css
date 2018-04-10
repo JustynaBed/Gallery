@@ -9,3 +9,7 @@
 .first_gallery {
     padding: 60px;
 }
+
+img:hover {
+    cursor: pointer;
+}
