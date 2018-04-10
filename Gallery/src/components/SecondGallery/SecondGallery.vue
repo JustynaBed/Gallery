@@ -4,7 +4,7 @@
         <div class="container-fluid">
             <div class="mx-auto row flower">
                 <figure class="col-sm-6 col-md-4 col-lg-3 text-center" v-for="image in images">
-                    <img class="img-fluid img-thumbnail center-block photo" :class="image.transform" :src="require(`../assets/img/${image.src}`)">
+                    <img class="img-fluid img-thumbnail center-block photo" :class="image.transform" :src="require(`../../assets/img/${image.src}`)">
                     <p>{{image.title}}</p>
                 </figure>
             </div>
@@ -13,7 +13,7 @@
 </template>
 
 <script>
-    import style from '../assets/css/secondGallery.css'
+    import style from './secondGallery.css'
 
     export default {
         data () {

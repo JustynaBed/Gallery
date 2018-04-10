@@ -7,8 +7,8 @@
 
 <script>
     import Vue from 'vue'
-    import style from './assets/css/styleApp.css'
-    import MenuNav from './components/MenuNav.vue'
+    import style from './components/Home/styleApp.css'
+    import MenuNav from './components/MenuNav/MenuNav.vue'
 
     export default {
         name: 'app',

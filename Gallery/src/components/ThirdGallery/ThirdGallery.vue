@@ -5,7 +5,7 @@
             <div class="mx-auto row flower">
                 <div class="col-sm-8 col-md-4 card memoryImg" v-for="image in images">
                     <span></span>
-                    <img class="card-img-top" :src="require(`../assets/img/${image.src}`)">
+                    <img class="card-img-top" :src="require(`../../assets/img/${image.src}`)">
                     <div class="card-body">
                         <h5 class="card-title">{{ msg }}</h5>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -17,7 +17,7 @@
 </template>
 
 <script>
-    import style from '../assets/css/thirdGallery.css'
+    import style from './thirdGallery.css'
 
     const currentDate = new Date();
 

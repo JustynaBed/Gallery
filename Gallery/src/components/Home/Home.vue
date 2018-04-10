@@ -7,7 +7,7 @@
 </template>
 
 <script>
-    import styleApp from '../assets/css/styleApp.css'
+    import styleApp from './styleApp.css'
 
     export default {
         name: 'home'

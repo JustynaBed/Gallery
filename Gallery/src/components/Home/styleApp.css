@@ -27,7 +27,7 @@ h1, h2 {
     align-items: center;
     width: 100%;
     min-height:648px;
-    background-image: url("../img/img1.jpg");
+    background-image: url("../../assets/img/img1.jpg");
     background-position: 49% 40%;
     background-size: cover;
 }

@@ -3,10 +3,10 @@ import VueRouter from 'vue-router'
 
 Vue.use(VueRouter);
 
-import Home from './components/Home.vue'
-import FirstGallery from './components/FirstGallery.vue'
-import SecondGallery from './components/SecondGallery.vue'
-import ThirdGallery from './components/ThirdGallery.vue'
+import Home from './components/Home/Home.vue'
+import FirstGallery from './components/FirstGallery/FirstGallery.vue'
+import SecondGallery from './components/SecondGallery/SecondGallery.vue'
+import ThirdGallery from './components/ThirdGallery/ThirdGallery.vue'
 
 
 const router = new VueRouter({
