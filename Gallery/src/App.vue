@@ -21,12 +21,13 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
+    color: #9b9b9b;
     background-color: #040001;
   }
 
   h1, h2 {
     font-weight: normal;
+    padding-bottom: 50px;
   }
 
   ul {

@@ -6,7 +6,7 @@
                 <b-collapse is-nav id="nav_dropdown_collapse">
                     <b-navbar-nav>
                         <b-nav-item href="../">HOME</b-nav-item>
-                        <b-nav-item href="/galeria1">GALERIA I</b-nav-item>
+                        <b-nav-item href="/galeria1">ALBUM I</b-nav-item>
                     </b-navbar-nav>
                 </b-collapse>
             </b-navbar>
