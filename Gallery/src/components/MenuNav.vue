@@ -8,6 +8,7 @@
                         <b-nav-item href="../">HOME</b-nav-item>
                         <b-nav-item href="/galeria1">ALBUM I</b-nav-item>
                         <b-nav-item href="/galeria2">ALBUM II</b-nav-item>
+                        <b-nav-item href="/galeria3">ALBUM III</b-nav-item>
                     </b-navbar-nav>
                 </b-collapse>
             </b-navbar>
