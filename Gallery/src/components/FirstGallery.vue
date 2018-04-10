@@ -15,7 +15,7 @@
 
 <script>
     import SingleImage from '../components/SingleImage.vue'
-    import style from '../assets/css/style.css'
+    import style from '../assets/css/firstGallery.css'
 
     export default {
         name: 'gallery',

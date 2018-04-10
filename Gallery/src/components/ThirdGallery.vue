@@ -17,7 +17,7 @@
 </template>
 
 <script>
-    import style from '../assets/css/style.css'
+    import style from '../assets/css/thirdGallery.css'
 
     const currentDate = new Date();
 

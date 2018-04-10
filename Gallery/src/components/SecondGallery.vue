@@ -13,7 +13,7 @@
 </template>
 
 <script>
-    import style from '../assets/css/style.css'
+    import style from '../assets/css/secondGallery.css'
 
     export default {
         data () {

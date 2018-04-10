@@ -1,0 +1,29 @@
+.second_gallery {
+    padding: 60px 25px 160px;
+}
+
+.photo {
+    padding: 10px 10px 50px 10px;
+    opacity: 0.8;
+    border-radius: 5px;
+    border: 1px solid #c0c0c0;
+    transform: rotate(-5deg) scale(0.8);
+    transition: 0.4s all ease-in-out;
+    will-change: transform;
+}
+
+.photo img {
+    width: 100%;
+}
+
+.photo figcaption {
+    margin-top: 15px;
+    font-family: Lobster, serif;
+    font-size: 20px;
+    color: black;
+}
+
+.photo:hover {
+    opacity: 1;
+    transform: scale(1.0);
+}

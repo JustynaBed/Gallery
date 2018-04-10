@@ -14,9 +14,9 @@ const router = new VueRouter({
     base: __dirname,
     routes: [
         { path: '/', component: Home },
-        { path: '/galeria1', component: FirstGallery },
-        { path: '/galeria2', component: SecondGallery },
-        { path: '/galeria3', component: ThirdGallery },
+        { path: '/gallery1', component: FirstGallery },
+        { path: '/gallery2', component: SecondGallery },
+        { path: '/gallery3', component: ThirdGallery },
     ]
 });
 
