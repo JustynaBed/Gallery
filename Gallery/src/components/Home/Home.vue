@@ -1,6 +1,6 @@
 <template>
     <div class="banner">
-        <div class="banner2">
+        <div class="bannerContent">
             <h1>JOIN US  TO DESIGN YOUR MEMORY JOURNEY</h1>
         </div>
     </div>
