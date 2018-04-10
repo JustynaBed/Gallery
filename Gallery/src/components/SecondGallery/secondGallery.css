@@ -18,7 +18,7 @@
     transition: 0.4s all ease-in-out;
     will-change: transform;
 }
-.counter-clockWise {
+.counter-clockwise {
     transform: rotate(-5deg) scale(0.8);
 }
 

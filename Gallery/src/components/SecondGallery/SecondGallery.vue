@@ -24,7 +24,7 @@
                 images: [
                     {id:1, transform: "clockwise", title: 'Img1', src: "img1.jpg"},
                     {id:2, transform: "clockwise", title: 'Img2', src: "img2.jpg"},
-                    {id:3, transform: "counter-clockWise", title: 'Img3', src: "img3.jpg"},
+                    {id:3, transform: "counter-clockwise", title: 'Img3', src: "img3.jpg"},
                     {id:4, transform: "clockwise", title: 'Img4', src: "img4.jpg"}
                 ]
             }
