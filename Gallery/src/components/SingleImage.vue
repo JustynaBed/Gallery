@@ -10,6 +10,8 @@
 </template>
 
 <script>
+    import style from '../assets/css/secondGallery.css'
+
     export default {
         props: ["selectedImage", "isOpen"],
         methods: {

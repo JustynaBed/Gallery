@@ -11,3 +11,23 @@ h1, h2 {
     font-weight: normal;
     padding-bottom: 50px;
 }
+
+.banner2 {
+    border-bottom: 2px solid white;
+    border-right: 2px solid #a9a9a9;
+    border-radius: 25px;
+    color: #d0d0d0;
+    flex: 0 25%;
+    padding: 5px;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height:648px;
+    background-image: url("../img/img1.jpg");
+    background-position: 49% 40%;
+    background-size: cover;
+}

@@ -4,7 +4,7 @@
         <div class="container">
             <div class="mx-auto row flower">
                 <figure @click="showImage(image)" class="col-sm-6 col-md-4 col-lg-3 text-center" v-for="image in images">
-                    <img class="img-fluid img-thumbnail center-block" :src="image.src">
+                    <img class="img-fluid img-thumbnail center-block pointer" :src="image.src">
                     <p>{{image.title}}</p>
                 </figure>
                 <single-image :selectedImage="selectedImage" :isOpen="isOpen"></single-image>
