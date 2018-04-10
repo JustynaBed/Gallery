@@ -1,5 +1,5 @@
 <template>
-    <div class="first_gallery">
+    <div class="first-gallery">
         <h1>FIRST DAYS OF SPRING</h1>
         <div class="container">
             <div class="mx-auto row flower">
@@ -15,10 +15,10 @@
 
 <script>
     import SingleImage from './SingleImage.vue'
-    import style from './firstGallery.css'
+    import fisrtGallery from './firstGallery.css'
 
     export default {
-        name: 'gallery',
+        name: 'fisrtGallery',
         components: {SingleImage},
         methods: {
             showImage: function (image) {

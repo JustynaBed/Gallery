@@ -13,6 +13,7 @@
     import style from '../SecondGallery/secondGallery.css'
 
     export default {
+        name: 'singleImage',
         props: ["selectedImage", "isOpen"],
         methods: {
             showModal () {

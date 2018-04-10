@@ -1,10 +1,38 @@
-.first_gallery {
-    padding: 47px;
+.first-gallery {
+    padding: 63px;
 }
+
 .flower figure:hover {
     transform: scale(1.1);
 }
 
 .pointer {
     cursor: pointer;
+}
+
+.btn-outline-danger:hover {
+    color: #fff;
+    background-color: #427065;
+    border-color: #9da4b5;
+}
+
+.btn-outline-danger {
+    color: #427065;
+    background-color: transparent;
+    background-image: none;
+    border: 2px solid #808080;
+}
+
+.btn-outline-danger:not(:disabled):not(.disabled):active {
+    color: #fff;
+    background-color: #28473f;
+    border-color: #13380c;
+}
+
+.btn-outline-danger:focus {
+    box-shadow: 0 1px 6px #666;
+}
+
+.btn-outline-danger:not(:disabled):not(.disabled):active:focus {
+    box-shadow: 0 1px 6px #989898;
 }

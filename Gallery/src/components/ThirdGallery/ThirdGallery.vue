@@ -1,9 +1,9 @@
 <template>
-    <div class="third_gallery">
+    <div class="third-gallery">
         <h1>MEMORIES</h1>
         <div class="container">
             <div class="mx-auto row flower">
-                <div class="col-sm-8 col-md-4 card memoryImg" v-for="image in images">
+                <div class="col-sm-8 col-md-4 card memory-img" v-for="image in images">
                     <span></span>
                     <img class="card-img-top" :src="require(`../../assets/img/${image.src}`)">
                     <div class="card-body">

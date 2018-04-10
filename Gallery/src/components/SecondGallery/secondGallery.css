@@ -1,16 +1,16 @@
-.second_gallery {
+.second-gallery {
     padding: 60px 25px 160px;
 }
 
-.second_gallery img {
+.second-gallery img {
     -webkit-filter: grayscale(100%)
 }
 
-.second_gallery img:hover {
+.second-gallery img:hover {
     -webkit-filter: grayscale(0%)
 }
 
-.photo {
+.img-polaroid {
     padding: 10px 10px 50px 10px;
     opacity: 0.8;
     border-radius: 5px;
@@ -18,54 +18,26 @@
     transition: 0.4s all ease-in-out;
     will-change: transform;
 }
-.counterClockWise {
+.counter-clockWise {
     transform: rotate(-5deg) scale(0.8);
 }
 
-.clockWise {
+.clockwise {
     transform: rotate(10deg) scale(0.8);
 }
 
-.photo img {
+.img-polaroid img {
     width: 100%;
 }
 
-.photo figcaption {
+.img-polaroid figcaption {
     margin-top: 15px;
     font-family: Lobster, sans-serif;
     font-size: 20px;
     color: black;
 }
 
-.photo:hover {
+.img-polaroid:hover {
     opacity: 1;
     transform: scale(1.0);
-}
-
-.btn-outline-danger:hover {
-    color: #fff;
-    background-color: #427065;
-    border-color: #9da4b5;
-}
-
-.btn-outline-danger {
-    color: #427065;
-    background-color: transparent;
-    background-image: none;
-    /*border-color: #42702a;*/
-    border: 2px solid #808080;
-}
-
-.btn-outline-danger:not(:disabled):not(.disabled).active, .btn-outline-danger:not(:disabled):not(.disabled):active, .show>.btn-outline-danger.dropdown-toggle {
-    color: #fff;
-    background-color: #28473f;
-    border-color: #13380c;
-}
-
-.btn-outline-danger.focus, .btn-outline-danger:focus {
-    box-shadow: 0 0 0 0.2rem rgba(8, 37, 8, 0.5);
-}
-
-.btn-outline-danger:not(:disabled):not(.disabled).active:focus, .btn-outline-danger:not(:disabled):not(.disabled):active:focus, .show>.btn-outline-danger.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(37, 34, 13, 0.5);
 }
