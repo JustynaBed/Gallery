@@ -1,5 +1,6 @@
 .second-gallery {
     padding: 60px 25px 160px;
+    min-height: calc(100vh - 121px);
 }
 
 .second-gallery img {

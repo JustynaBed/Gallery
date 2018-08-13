@@ -1,0 +1,22 @@
+.footer {
+  background-color: #000000 !important;
+  box-shadow: inset 8px 35px 28px -15px rgba(88, 75, 75, 0.9);
+  padding: 0.5rem 1rem;
+  margin-bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+p {
+  color: rgba(231, 231, 231, 0.5);
+  /* text-align: center; */
+}
+
+.footer a {
+  text-decoration: none;
+  color: #eece1a !important;
+  font-weight: bold;
+}
+.fa-heart {
+  color: #e9334a;
+}

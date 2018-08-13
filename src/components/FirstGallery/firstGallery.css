@@ -1,9 +1,11 @@
 .first-gallery {
     padding: 63px;
+    min-height: calc(100vh - 121px);
 }
 
 .flower figure:hover {
     transform: scale(1.1);
+    transition: all 0.5s ease-out;
 }
 
 .pointer {

@@ -1,5 +1,6 @@
 .third-gallery {
     padding: 14px 25px 16px;
+    min-height: calc(100vh - 121px);
 }
 
 .card {

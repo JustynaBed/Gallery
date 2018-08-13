@@ -28,7 +28,7 @@
     }
 
     .navbar-dark .navbar-nav .nav-link:hover {
-        color: #427065;
+        color: #eece1a;
     }
 
     .bg-primary {
@@ -38,7 +38,7 @@
     }
 
     .navbar {
-        padding: 18px 56px;
+        padding: 0.5rem 1rem;
     }
 </style>
 
