@@ -6,6 +6,14 @@
 .card {
     margin-bottom: 100px;
 }
+.card-text{
+    color: rgb(129, 123, 123);
+}
+.card-title {
+    font-weight: bold;
+    color: #e0c631;
+    text-shadow: 5px 2px 7px rgb(182, 180, 184);
+}
 .memory-img img {
     transform: rotate(-8deg);
     box-shadow: 0 1px 6px #666;
@@ -24,10 +32,10 @@
     display: block;
     content: '';
     position: absolute;
-    top: -28px;
-    right: 64px;
-    width: 14px;
-    height: 54px;
+    top: -8%;
+    right: 20%;
+    width: 4%;
+    height: 15%;
     z-index: 1;
     border: 2px solid #9b9b9b;
     transform: rotate(4deg);
@@ -39,22 +47,10 @@
     display: block;
     content: '';
     position: absolute;
-    top: -18px;
-    right: 60px;
-    width: 8px;
-    height: 12px;
-    background: #fff;
+    top: -3.8%;
+    right: 18%;
+    width: 3%;
+    height: 2.5%;
+    background: rgb(255, 255, 255);
     z-index: 2;
-}
-
-@media (max-width: 1200px)  {
-    span {
-        display: none;
-    }
-}
-
-@media (min-width: 1200px)  {
-    span {
-        display: block;
-    }
 }

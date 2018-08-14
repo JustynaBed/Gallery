@@ -15,10 +15,12 @@ h1, h2 {
 .banner-content {
     border-bottom: 2px solid white;
     border-right: 2px solid #a9a9a9;
+    text-shadow: 3px 3px 8px rgba(115, 103, 124, 1);
     border-radius: 25px;
     color: #d0d0d0;
     flex: 0 25%;
     padding: 5px;
+    font-weight: 600;
 }
 
 .banner {
@@ -31,4 +33,14 @@ h1, h2 {
     background-position: 49% 40%;
     background-size: cover;
     overflow-y: hidden;
+}
+
+@media (orientation: portrait) {
+    .banner {
+        min-height: calc(100vh - 112px);
+    }
+    .banner-content {
+    flex: 0 80%;
+    padding: 3px;
+}
 }
